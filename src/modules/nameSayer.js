@@ -7,8 +7,8 @@ function SayName(props){
 
     return (
         <>
-            <div className="panel panel-default">
-                <div className="panel-body">
+            <div className="d-flex justify-content-center">
+                <div className="border border-primary p-3 m-3">
                     <p>
                         {greeting}
                     </p>

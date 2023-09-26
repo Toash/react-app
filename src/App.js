@@ -10,7 +10,7 @@ import Form from './modules/form';
 function App() {
   return (
     <div className="App">
-      <p>Testing out react</p>
+      <h1 className='m-4'>Testing out react</h1>
       <ColorChanger />
       <SayName name="Justin"/>
       <LightSwitch/>

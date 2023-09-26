@@ -8,10 +8,12 @@ function LightSwitch(){
     const [message, setMessage] = useState("off")
 
     return(
-        <>
-            <button onClick={flip}>Flip switch</button>
-            <p>{message}</p>
-        </>
+        <div className="d-flex justify-content-center">
+            <div className="border border-primary p-3 ">
+                <button onClick={flip}>Flip switch</button>
+                <p>{message}</p>
+            </div>
+        </div>
     )
     function flip(){
         console.log("flipped switch")
